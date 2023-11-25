@@ -269,6 +269,11 @@ footer {
         height: 150px;
     }
 
+    .featurette {
+        width: 100%;
+        padding: 0px 12%;
+    }
+
     .img-project {
         object-fit: fill;
     }
@@ -284,12 +289,12 @@ footer {
     }
 
     .resume-left {
-        padding: 0 12%;
+        padding: 0 6%;
         height: auto;
     }
         
     .resume-right {
-        padding: 0 12% 5% 12%;
+        padding: 0 6% 5% 6%;
         background-color: white;
         color: black;
         height: auto;
@@ -314,4 +319,106 @@ footer {
     .btn-mobile {
         display: inline;
     }
+
+    .featurette {
+        width: 100%;
+        padding: 0px 6%;
+    }
+}
+
+@media  (max-width: 720px) {
+
+    .me-header {
+        margin-bottom: 50px;
+    }
+
+    #title h2 {
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+
+    .icon-socials {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .socials-btn .btn {
+        height: 45px;
+        width: 45px;
+        padding-left: 10px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .box-header {
+        width: 90px;
+    }
+
+    .icon-portifolio {
+        height: 40px;
+        width: 40px;
+    }
+    
+    
+}
+
+@media  (max-width: 600px) {
+
+    .me-header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
+    #title h2 {
+        font-size: 42px;
+        color: white;
+    }
+
+    .icon-socials {
+        height: 30px;
+        width: 30px;
+    }
+
+    
+    .socials-btn .btn {
+        height: 60px;
+        width: 60px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    
+    .btn-portfolio {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+
+
+
+    .container-icon-title {
+        display: flex;
+        align-items: center;
+    }
+
+    
+    #resume p {
+        font-size: 1.2rem;
+    }
+
+    #resume li {
+        font-size: 1.2rem;
+    }
+
+        
+    footer {
+        font-size: 12px;
+    }
+
 }
